@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash
   {
     home: {
@@ -126,5 +128,6 @@ def game_hash
 end
 
 def num_points_scored player_name
+  binding.pry
   player [:score]
 end 
