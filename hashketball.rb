@@ -131,3 +131,4 @@ def num_points_scored player_name
   binding.pry
   player [:score]
 end 
+
